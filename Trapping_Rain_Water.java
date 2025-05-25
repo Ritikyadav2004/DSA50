@@ -26,6 +26,7 @@ public class Trapping_Rain_Water
         right[i] = max;
 
         }
+        //hi there
         //applying formula
         int trap_water=0;
         for(int j=0;j<height.length;j++)
