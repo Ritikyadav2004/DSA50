@@ -1,4 +1,4 @@
-public class Trapping_Rain_Water 
+public class trapwater
 {
     public static void main(String[] args)
     {
