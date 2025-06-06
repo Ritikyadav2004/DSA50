@@ -3,7 +3,7 @@ public class string_to_intger{
     public static int converter(String str)
     {   
         int num  = 0; 
-        for(int i=0;i<str.length();i++)
+        for(int i=0;i<str.length();i++)  
         {
             if( (int)str.charAt(i)>=48 && (int)str.charAt(i)<=57)
             {
