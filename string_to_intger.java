@@ -7,7 +7,7 @@ public class string_to_intger{
         {
             if( (int)str.charAt(i)>=48 && (int)str.charAt(i)<=57)
             {
-                // Add your logic here
+                //logic here
                 num=num*10;
                 num = num+((int)str.charAt(i)-48);
             }
