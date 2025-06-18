@@ -5,7 +5,7 @@ public class strstr{
         String str2 = "Hey";
         
         boolean flag = false;
-        boolean flag1=true;
+        boolean flag1=true;  
         int temp=0;
         for (int i = 0; i < str2.length(); i++) {
             
