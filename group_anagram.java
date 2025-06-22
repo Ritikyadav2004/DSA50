@@ -104,10 +104,10 @@ public class group_anagram {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);
 
-        // Read the number of words
+        // Read the number of words  
         System.out.println("Enter Number of Strings:");
         int n = sc.nextInt();
         sc.nextLine(); // Consume newline
