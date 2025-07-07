@@ -1,14 +1,14 @@
 public class setRowcolmOne {
     public static void main(String[] args) {
-         int [][] matrix = {{1,2,3,6},{4,8,5,6},{7,9,8,2},{1,2,3,4}};
+         int [][] matrix = {{1,2,3,6},{4,8,5,6},{7,9,8,2},{9,2,3,4}};
         boolean firstrow=false;
     boolean firstcolm = false;
     for (int i = 0; i < matrix.length; i++) {
         for (int j = 0; j < matrix[0].length; j++) {
-            if(matrix[i][j]==0)
+            if(matrix[i][j]==1)
             {
-                if(i==1)firstrow=true;
-                if(j==1)firstcolm=true;
+                if(i==0)firstrow=true;
+                if(j==0)firstcolm=true;
                 matrix[0][j]=1;
                 matrix[i][0]=1;
             }
