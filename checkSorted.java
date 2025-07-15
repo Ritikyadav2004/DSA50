@@ -16,7 +16,7 @@ public class checkSorted {
          }
         }
         if(flag)System.out.println("Array Not Sorted");
-        else System.out.println("Array Sorted ");
+        else System.out.println("Array Sorted "); 
     }
     
 }
